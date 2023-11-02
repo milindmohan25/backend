@@ -1,15 +1,16 @@
 {
   "name": "blogapi",
   "version": "1.0.0",
-  "homepage": "https://milindmohan25.github.io/NGO-nai-Tarang/backend", 
   "description": "",
   "main": "index.js",
   "scripts": {
-       "predeploy": "npm run build",
- "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
+  "engines": {
+    "node": "20.8.0",
+    "npm": "10.1.0"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
